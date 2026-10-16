@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-13T19:27:44+08:00",
+  "status": "passed",
+  "counts": {
+    "classic-development.json": 30,
+    "classic-test-screening.json": 100,
+    "classic-test-all.json": 373
+  },
+  "checks": [
+    "JSON parses, unique case IDs",
+    "Every layout/environment/config/task-source hash matches frozen native inventory",
+    "Native step limits unchanged",
+    "Development and test layout IDs and serialized hashes are disjoint",
+    "Screening is a subset of remaining selected full test",
+    "All selected cases exclude locally launched case IDs and layout hashes",
+    "Audit source hashes match per-run launch/results"
+  ],
+  "execution": "Read-only verification only; no simulation or model calls"
+}

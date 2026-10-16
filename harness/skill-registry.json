@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "id": "robodojo-shovel-pickup",
+      "task": "general_pickup",
+      "instruction_contains": ["lavender", "plastic", "shovel"],
+      "path": "skills/robodojo-shovel-pickup/SKILL.md"
+    }
+  ]
+}

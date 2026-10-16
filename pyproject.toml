@@ -1,0 +1,28 @@
+[project]
+name = "robot-agent-eval"
+version = "0.1.0"
+description = "Local, paired RoboDojo agent evaluation and evidence collection"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "numpy>=1.26,<3", "scipy>=1.11,<2", "Pillow>=10,<13", "PyYAML>=6,<7",
+    "msgpack>=1,<2", "httpx>=0.28,<1", "pydantic>=2.12,<3",
+    "pydantic-settings>=2.12,<3", "loguru>=0.7,<1", "requests>=2.32,<3",
+    "opencv-python-headless>=4.10,<5", "imageio>=2.34,<3", "imageio-ffmpeg>=0.5,<1", "jsonschema>=4.23,<5",
+]
+
+
+[project.scripts]
+robot-agent-eval = "robot_agent_eval.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["robot_agent_eval*"]

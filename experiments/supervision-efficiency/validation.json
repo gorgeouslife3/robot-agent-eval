@@ -1,0 +1,23 @@
+{
+  "status": "design_validation_only_no_robot_or_model_execution",
+  "checks": {
+    "nine_unique_hybrid_groups": true,
+    "screening_sample_arithmetic": true,
+    "development_sample_arithmetic": true,
+    "factorial_context_skill": true,
+    "factorial_phase_anomaly": true,
+    "permission_group_changes_only_enforcement": true,
+    "all_contrasts_balanced_and_groups_exist": true,
+    "optional_react_not_primary": true,
+    "protected_files_unchanged": true
+  },
+  "protected_file_count": 751,
+  "changed_protected_files": [],
+  "new_files": [
+    "plan.zh-CN.md",
+    "design.json",
+    "protected-inputs.sha256.json",
+    "validation.json"
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,44 @@
+# Credentials and operator configuration
+secrets/
+.env
+.env.*
+!.env.example
+configs/model.local.json
+configs/*.private.json
+**/auth.json
+**/credentials.json
+
+# External sources, simulator assets, model weights and local environments
+sources/
+source-snapshots/
+runtime-sources/
+checkpoints/
+.deps/
+.venv/
+.venvs/
+controller-preflight*/
+
+# Generated trials, media, previews, caches and installation products
+runs/
+**/runs/
+harness-preview/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.log
+*.lock
+*.mp4
+*.webm
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+checkpoint-download-result.json
+*-preflight.json
+experiments/supervision-efficiency/configs/part2-freeze.json
+experiments/supervision-efficiency/protected-inputs.sha256.json
+experiments/supervision-efficiency/results/part2/offline-checks/

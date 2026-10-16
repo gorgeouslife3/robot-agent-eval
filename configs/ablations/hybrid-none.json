@@ -1,0 +1,21 @@
+{
+  "model": "gpt-6-astra",
+  "base_url": "https://YOUR-PROVIDER/v1",
+  "wire_api": "responses",
+  "api_key_file": "secrets/api-key.json",
+  "api_key_json_field": "OPENAI_API_KEY",
+  "reasoning_effort": "xhigh",
+  "request_timeout_s": 180,
+  "max_model_calls_per_episode": 60,
+  "max_total_tokens_per_episode": 2000000,
+  "max_episode_wall_s": 420,
+  "max_decisions": 60,
+  "images_max_edge": 480,
+  "allow_model_fallback": false,
+  "hybrid_perception": {
+    "mode": "none",
+    "camera": "cam_head",
+    "target_text": "shovel",
+    "lingbot_resolution_level": 0
+  }
+}

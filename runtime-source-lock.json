@@ -1,0 +1,9 @@
+{
+  "phyagentos-robodojo-skill": {
+    "name": "robodojo",
+    "version": "0.2.1",
+    "registry_url": "https://paos-resource-manager.dev.x-era.com/v1/skills/robodojo",
+    "sha256": "2163d282f072ba6e7e53c3d1156f87b2591985253d8e66b8c86232de47573afc",
+    "size": 329577
+  }
+}

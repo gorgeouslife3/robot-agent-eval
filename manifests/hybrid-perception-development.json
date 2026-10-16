@@ -1,0 +1,20 @@
+{
+  "split": "development-astra-hybrid-perception",
+  "purpose": "Fresh Astra hybrid task execution comparison on previously used layout, not generalization",
+  "cases": [
+    {
+      "case_id": "general_pickup:seed0:layout1",
+      "task": "general_pickup",
+      "dimension": "open",
+      "variant": "standard",
+      "eval_seed": 0,
+      "layout_id": 1,
+      "layout_filename": "general_pickup_1.json",
+      "layout_path": "/path/to/RoboDojo/Assets/Eval_Layout/RoboDojo/arx_x5/0/general_pickup_1.json",
+      "layout_sha256": "f760ad32138d4cbe8585663a820c1657067ac9a08a988d1384a155901e63948b",
+      "config_sha256": "35de68117cb0ed596b30db1c62f1f9090f2cd1237242a03d5aaeb7186e791d93",
+      "native_step_limit": 200,
+      "env_cfg": "arx_x5"
+    }
+  ]
+}

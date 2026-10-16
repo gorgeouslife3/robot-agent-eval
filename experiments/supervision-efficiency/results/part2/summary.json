@@ -1,0 +1,334 @@
+{
+  "updated_at": "2026-10-14T09:58:34.479575+08:00",
+  "status": "queued",
+  "aggregate": [
+    {
+      "group_id": "H11",
+      "n": 0,
+      "successes": 0,
+      "successes_420s": 0,
+      "native_success": 0,
+      "native_failure": 0,
+      "native_unknown": 0,
+      "mean_active_s": null,
+      "sample_sd_active_s": null,
+      "mean_penalized_s": null,
+      "mean_calls": null,
+      "mean_input": null,
+      "mean_cached_input": null,
+      "mean_uncached_input": null,
+      "mean_output": null,
+      "usage_complete": true,
+      "resources_per_success": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "api_submitted": null
+      }
+    },
+    {
+      "group_id": "S00",
+      "n": 0,
+      "successes": 0,
+      "successes_420s": 0,
+      "native_success": 0,
+      "native_failure": 0,
+      "native_unknown": 0,
+      "mean_active_s": null,
+      "sample_sd_active_s": null,
+      "mean_penalized_s": null,
+      "mean_calls": null,
+      "mean_input": null,
+      "mean_cached_input": null,
+      "mean_uncached_input": null,
+      "mean_output": null,
+      "usage_complete": true,
+      "resources_per_success": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "api_submitted": null
+      }
+    },
+    {
+      "group_id": "S10",
+      "n": 0,
+      "successes": 0,
+      "successes_420s": 0,
+      "native_success": 0,
+      "native_failure": 0,
+      "native_unknown": 0,
+      "mean_active_s": null,
+      "sample_sd_active_s": null,
+      "mean_penalized_s": null,
+      "mean_calls": null,
+      "mean_input": null,
+      "mean_cached_input": null,
+      "mean_uncached_input": null,
+      "mean_output": null,
+      "usage_complete": true,
+      "resources_per_success": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "api_submitted": null
+      }
+    },
+    {
+      "group_id": "S01",
+      "n": 0,
+      "successes": 0,
+      "successes_420s": 0,
+      "native_success": 0,
+      "native_failure": 0,
+      "native_unknown": 0,
+      "mean_active_s": null,
+      "sample_sd_active_s": null,
+      "mean_penalized_s": null,
+      "mean_calls": null,
+      "mean_input": null,
+      "mean_cached_input": null,
+      "mean_uncached_input": null,
+      "mean_output": null,
+      "usage_complete": true,
+      "resources_per_success": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "api_submitted": null
+      }
+    },
+    {
+      "group_id": "S11",
+      "n": 0,
+      "successes": 0,
+      "successes_420s": 0,
+      "native_success": 0,
+      "native_failure": 0,
+      "native_unknown": 0,
+      "mean_active_s": null,
+      "sample_sd_active_s": null,
+      "mean_penalized_s": null,
+      "mean_calls": null,
+      "mean_input": null,
+      "mean_cached_input": null,
+      "mean_uncached_input": null,
+      "mean_output": null,
+      "usage_complete": true,
+      "resources_per_success": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "api_submitted": null
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "label": "审查间隔延长：S00−H11",
+      "terms": {
+        "S00": 1,
+        "H11": -1
+      },
+      "paired_repeats": 0,
+      "metrics": {
+        "success_within_budget": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "penalized_completion_time_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "episode_active_wall_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "api_submitted": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "uncached_input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "output_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "vla_inferences": {
+          "mean_delta": null,
+          "per_repeat": []
+        }
+      },
+      "time_category_deltas": {
+        "astra_blocked": null,
+        "vla_infer": null,
+        "monitor": null,
+        "action_ack": null,
+        "logging_ipc": null,
+        "residual": null
+      }
+    },
+    {
+      "label": "阶段触发平均效应",
+      "terms": {
+        "S10": 0.5,
+        "S00": -0.5,
+        "S11": 0.5,
+        "S01": -0.5
+      },
+      "paired_repeats": 0,
+      "metrics": {
+        "success_within_budget": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "penalized_completion_time_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "episode_active_wall_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "api_submitted": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "uncached_input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "output_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "vla_inferences": {
+          "mean_delta": null,
+          "per_repeat": []
+        }
+      },
+      "time_category_deltas": {
+        "astra_blocked": null,
+        "vla_infer": null,
+        "monitor": null,
+        "action_ack": null,
+        "logging_ipc": null,
+        "residual": null
+      }
+    },
+    {
+      "label": "异常触发平均效应",
+      "terms": {
+        "S01": 0.5,
+        "S00": -0.5,
+        "S11": 0.5,
+        "S10": -0.5
+      },
+      "paired_repeats": 0,
+      "metrics": {
+        "success_within_budget": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "penalized_completion_time_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "episode_active_wall_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "api_submitted": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "uncached_input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "output_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "vla_inferences": {
+          "mean_delta": null,
+          "per_repeat": []
+        }
+      },
+      "time_category_deltas": {
+        "astra_blocked": null,
+        "vla_infer": null,
+        "monitor": null,
+        "action_ack": null,
+        "logging_ipc": null,
+        "residual": null
+      }
+    },
+    {
+      "label": "阶段与异常交互",
+      "terms": {
+        "S11": 1,
+        "S10": -1,
+        "S01": -1,
+        "S00": 1
+      },
+      "paired_repeats": 0,
+      "metrics": {
+        "success_within_budget": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "penalized_completion_time_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "episode_active_wall_s": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "api_submitted": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "uncached_input_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "output_tokens": {
+          "mean_delta": null,
+          "per_repeat": []
+        },
+        "vla_inferences": {
+          "mean_delta": null,
+          "per_repeat": []
+        }
+      },
+      "time_category_deltas": {
+        "astra_blocked": null,
+        "vla_infer": null,
+        "monitor": null,
+        "action_ack": null,
+        "logging_ipc": null,
+        "residual": null
+      }
+    }
+  ],
+  "records": [],
+  "scope": "layout13 times 3 repeats times 5 part2 groups",
+  "current": null,
+  "stop_reason": null,
+  "input_decomposition": null
+}

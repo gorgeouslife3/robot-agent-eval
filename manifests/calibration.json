@@ -1,0 +1,20 @@
+{
+  "split": "calibration",
+  "purpose": "infrastructure only; excluded from main results",
+  "cases": [
+    {
+      "case_id": "general_pickup:seed0:layout0",
+      "task": "general_pickup",
+      "dimension": "open",
+      "variant": "standard",
+      "eval_seed": 0,
+      "layout_id": 0,
+      "layout_filename": "general_pickup_0.json",
+      "layout_path": "/path/to/RoboDojo/Assets/Eval_Layout/RoboDojo/arx_x5/0/general_pickup_0.json",
+      "layout_sha256": "7a3ecf189e248f99a75ef8f6fdbe7fca85795846d67e9fd7f2d74954c8e78dda",
+      "config_sha256": "35de68117cb0ed596b30db1c62f1f9090f2cd1237242a03d5aaeb7186e791d93",
+      "native_step_limit": 200,
+      "env_cfg": "arx_x5"
+    }
+  ]
+}

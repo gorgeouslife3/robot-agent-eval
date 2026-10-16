@@ -1,0 +1,87 @@
+{
+  "model": "gpt-6-astra",
+  "base_url": "https://YOUR-PROVIDER/v1",
+  "wire_api": "responses",
+  "api_key_file": "secrets/api-key.json",
+  "api_key_json_field": "OPENAI_API_KEY",
+  "reasoning_effort": "xhigh",
+  "request_timeout_s": 180,
+  "max_model_calls_per_episode": 80,
+  "max_input_tokens_per_episode": 8000000,
+  "max_total_tokens_per_episode": 8000000,
+  "max_episode_wall_s": 1200,
+  "max_output_tokens_per_request": 8192,
+  "allow_model_fallback": false,
+  "images_max_edge": 480,
+  "groups": {
+    "H11": {
+      "group_id": "H11",
+      "method": "astra_hybrid",
+      "context": "bounded",
+      "task_skill": true,
+      "periodic_review_max_steps": 15,
+      "phase_trigger": false,
+      "anomaly_trigger": false,
+      "enforce_stage_permissions": false
+    },
+    "S00": {
+      "group_id": "S00",
+      "method": "astra_hybrid",
+      "context": "bounded",
+      "task_skill": true,
+      "periodic_review_max_steps": 45,
+      "phase_trigger": false,
+      "anomaly_trigger": false,
+      "enforce_stage_permissions": false
+    },
+    "S01": {
+      "group_id": "S01",
+      "method": "astra_hybrid",
+      "context": "bounded",
+      "task_skill": true,
+      "periodic_review_max_steps": 45,
+      "phase_trigger": false,
+      "anomaly_trigger": true,
+      "enforce_stage_permissions": false
+    },
+    "S10": {
+      "group_id": "S10",
+      "method": "astra_hybrid",
+      "context": "bounded",
+      "task_skill": true,
+      "periodic_review_max_steps": 45,
+      "phase_trigger": true,
+      "anomaly_trigger": false,
+      "enforce_stage_permissions": false
+    },
+    "S11": {
+      "group_id": "S11",
+      "method": "astra_hybrid",
+      "context": "bounded",
+      "task_skill": true,
+      "periodic_review_max_steps": 45,
+      "phase_trigger": true,
+      "anomaly_trigger": true,
+      "enforce_stage_permissions": false
+    }
+  },
+  "monitor": {
+    "hsv_low": [
+      115,
+      12,
+      90
+    ],
+    "hsv_high": [
+      155,
+      95,
+      255
+    ],
+    "minimum_component_pixels": 100,
+    "maximum_centroid_jump_pixels": 90,
+    "trial_lift_m": 0.015,
+    "failed_lift_m": 0.02,
+    "co_motion_pixels": 3.0,
+    "stationary_pixels": 2.5,
+    "stationary_hand_m": 0.005
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "gpt-6-astra",
+  "base_url": "https://YOUR-PROVIDER/v1",
+  "wire_api": "responses",
+  "api_key_file": "secrets/api-key.json",
+  "reasoning_effort": "xhigh",
+  "request_timeout_s": 180,
+  "max_output_tokens": 4096,
+  "max_model_calls_per_episode": 60,
+  "max_episode_wall_s": 1200,
+  "images_max_edge": 768,
+  "allow_model_fallback": false,
+  "api_key_json_field": "OPENAI_API_KEY",
+  "max_total_tokens_per_episode": 2000000,
+  "max_decisions": 60
+}

@@ -1,0 +1,276 @@
+{
+  "created_at": "2026-10-13T19:27:44+08:00",
+  "selection": "Representative local task selection, not an official RoboDojo classic subset",
+  "tasks": [
+    {
+      "task": "general_pickup",
+      "label_zh": "指定物体抓起",
+      "comparison_focus_zh": "基础识别与抓取",
+      "priority_tier": 1,
+      "dimension": "open",
+      "native_step_limit": 200,
+      "development_layouts": [
+        50,
+        51,
+        52
+      ],
+      "screening_test_layouts": [
+        2,
+        7,
+        12,
+        18,
+        23,
+        28,
+        33,
+        39,
+        44,
+        49
+      ],
+      "remaining_native_test_cases": 48
+    },
+    {
+      "task": "push_T",
+      "label_zh": "推 T 形块",
+      "comparison_focus_zh": "非抓取接触与平面位姿对齐",
+      "priority_tier": 1,
+      "dimension": "generalization",
+      "native_step_limit": 600,
+      "development_layouts": [
+        25,
+        26,
+        27
+      ],
+      "screening_test_layouts": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        21,
+        24
+      ],
+      "remaining_native_test_cases": 25
+    },
+    {
+      "task": "stack_blocks",
+      "label_zh": "叠三个方块",
+      "comparison_focus_zh": "抓放精度与堆叠稳定性",
+      "priority_tier": 1,
+      "dimension": "generalization",
+      "native_step_limit": 550,
+      "development_layouts": [
+        25,
+        26,
+        27
+      ],
+      "screening_test_layouts": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        21,
+        24
+      ],
+      "remaining_native_test_cases": 25
+    },
+    {
+      "task": "insert_tubes",
+      "label_zh": "插三根管",
+      "comparison_focus_zh": "细长物体与孔位对准",
+      "priority_tier": 1,
+      "dimension": "precision",
+      "native_step_limit": 500,
+      "development_layouts": [
+        50,
+        51,
+        52
+      ],
+      "screening_test_layouts": [
+        0,
+        5,
+        11,
+        16,
+        22,
+        27,
+        33,
+        38,
+        44,
+        49
+      ],
+      "remaining_native_test_cases": 50
+    },
+    {
+      "task": "swap_blocks",
+      "label_zh": "借空垫交换方块",
+      "comparison_focus_zh": "位置记忆、阶段规划与按钮确认",
+      "priority_tier": 1,
+      "dimension": "memory",
+      "native_step_limit": 700,
+      "development_layouts": [
+        50,
+        51,
+        52
+      ],
+      "screening_test_layouts": [
+        0,
+        5,
+        11,
+        16,
+        22,
+        27,
+        33,
+        38,
+        44,
+        49
+      ],
+      "remaining_native_test_cases": 50
+    },
+    {
+      "task": "stack_blocks_by_language",
+      "label_zh": "按文字顺序叠方块",
+      "comparison_focus_zh": "语言指定颜色顺序",
+      "priority_tier": 1,
+      "dimension": "open",
+      "native_step_limit": 400,
+      "development_layouts": [
+        50,
+        51,
+        52
+      ],
+      "screening_test_layouts": [
+        0,
+        5,
+        11,
+        16,
+        22,
+        27,
+        33,
+        38,
+        44,
+        49
+      ],
+      "remaining_native_test_cases": 50
+    },
+    {
+      "task": "put_bottles_into_dustbin",
+      "label_zh": "瓶子入垃圾桶",
+      "comparison_focus_zh": "连续抓放与双臂工作范围",
+      "priority_tier": 2,
+      "dimension": "long-horizon",
+      "native_step_limit": 700,
+      "development_layouts": [
+        50,
+        51,
+        52
+      ],
+      "screening_test_layouts": [
+        0,
+        5,
+        11,
+        16,
+        22,
+        27,
+        33,
+        38,
+        44,
+        49
+      ],
+      "remaining_native_test_cases": 50
+    },
+    {
+      "task": "sweep_blocks",
+      "label_zh": "扫方块进簸箕",
+      "comparison_focus_zh": "工具使用与双手配合",
+      "priority_tier": 2,
+      "dimension": "generalization",
+      "native_step_limit": 1000,
+      "development_layouts": [
+        25,
+        26,
+        27
+      ],
+      "screening_test_layouts": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        21,
+        24
+      ],
+      "remaining_native_test_cases": 25
+    },
+    {
+      "task": "push_T_random",
+      "label_zh": "推 T 随机变体",
+      "comparison_focus_zh": "资源更换与干扰物",
+      "priority_tier": 3,
+      "dimension": "generalization",
+      "native_step_limit": 600,
+      "development_layouts": [
+        25,
+        26,
+        27
+      ],
+      "screening_test_layouts": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        21,
+        24
+      ],
+      "remaining_native_test_cases": 25
+    },
+    {
+      "task": "stack_blocks_random",
+      "label_zh": "叠方块随机变体",
+      "comparison_focus_zh": "资源更换、干扰物及判定阈值变化",
+      "priority_tier": 3,
+      "dimension": "generalization",
+      "native_step_limit": 550,
+      "development_layouts": [
+        25,
+        26,
+        27
+      ],
+      "screening_test_layouts": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        21,
+        24
+      ],
+      "remaining_native_test_cases": 25
+    }
+  ],
+  "cases_per_method": {
+    "development": 30,
+    "screening_test": 100,
+    "remaining_selected_full_test": 373
+  },
+  "excluded_local_case_ids": [
+    "align_blocks:seed0:layout0",
+    "general_pickup:seed0:layout0",
+    "general_pickup:seed0:layout1"
+  ]
+}

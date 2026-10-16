@@ -1,0 +1,27 @@
+{
+  "model": "gpt-6-astra",
+  "base_url": "https://YOUR-PROVIDER/v1",
+  "wire_api": "responses",
+  "api_key_file": "secrets/api-key.json",
+  "api_key_json_field": "OPENAI_API_KEY",
+  "reasoning_effort": "xhigh",
+  "request_timeout_s": 180,
+  "max_model_calls_per_episode": 20,
+  "max_total_tokens_per_episode": 2000000,
+  "max_episode_wall_s": 420,
+  "max_decisions": 60,
+  "images_max_edge": 480,
+  "allow_model_fallback": false,
+  "use_task_skill": true,
+  "max_output_tokens_per_request": 8192,
+  "ablation": {
+    "perception": "sam_depth",
+    "estimator": "median",
+    "recovery": false,
+    "action_backend": "geometry_dls",
+    "refresh": "stage",
+    "verifier": "sam_anchor_depth",
+    "symmetric_axis": "positive_y",
+    "recorded_seed_controller": "/path/to/robot-agent-eval/runs/20261013-160703-566213-modular_pickup-general_pickup-l1/controller"
+  }
+}

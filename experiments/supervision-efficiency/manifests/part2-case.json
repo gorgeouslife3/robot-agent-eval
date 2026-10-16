@@ -1,0 +1,20 @@
+{
+  "split": "test_single_layout_pilot",
+  "cases": [
+    {
+      "case_id": "general_pickup:seed0:layout13",
+      "task": "general_pickup",
+      "dimension": "open",
+      "variant": "standard",
+      "eval_seed": 0,
+      "layout_id": 13,
+      "layout_filename": "general_pickup_13.json",
+      "layout_path": "/path/to/RoboDojo/Assets/Eval_Layout/RoboDojo/arx_x5/0/general_pickup_13.json",
+      "layout_sha256": "d859e995c920dd4ee45e477daf42023907134639636deea3f6a3e666ac798dab",
+      "config_sha256": "35de68117cb0ed596b30db1c62f1f9090f2cd1237242a03d5aaeb7186e791d93",
+      "native_step_limit": 200,
+      "env_cfg": "arx_x5"
+    }
+  ],
+  "policy_access_to_case_file": false
+}
